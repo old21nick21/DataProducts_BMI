@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/136969/50616b63764748a0a446d0c76f588aa5
+url: http://rpubs.com/oldnick21/136969
+when: 1451106836.64738
