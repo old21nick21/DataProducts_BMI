@@ -44,17 +44,18 @@ everything can be blamed for obesity epidemic. Our personal habits are not to bl
 
 ## Body Mass Index - the standard way
 
-Body Mass Index (BMI) is a quick and a simple way to estimate the body fat percentage - an important indicator of overall health.
+Body Mass Index (BMI) is a quick and a simple way to estimate the body fat percentage - an important indicator of overall health. Standard formula for the BMI Index (for weight in lbs and height in pounds). $BMI = weight*703/height^2$
 
-Standard formula for the BMI Index (for weight in lbs and height in pounds)
-
-$BMI = weight*703/height^2$
-
-You can learn much more by checking available Internet resources
-
+```{r}
+ht<-65
+wt<-145
+BMI <- wt*703/(ht*ht)
+print(BMI)
+```
+You can learn much more by checking available Internet resources: 
 [Wikipedia article on BMI](https://en.wikipedia.org/wiki/Body_mass_index)
 
-Standard BMI is never a completely accurate tool to estimate the overall health impact of the weight. For one, people with well-developed muscles (e.g. athletes) complain about being qualified as overweight under standard BMI calculations.
+Standard BMI is never a completely accurate. For one, people with well-developed muscles (e.g. athletes) complain about being qualified as overweight under standard BMI calculations.
 
 There are many attempts to improve existing BMI formula. One was developed for this project and presented on the next slide.
 
